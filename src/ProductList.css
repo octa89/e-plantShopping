@@ -163,15 +163,22 @@ body {
 .cart{
     color: white;
     display: flex;
+    position: relative;
 }
-.cart_quantity_count{
-    margin-top: 16px;
-    /* background-color: red; */
-    margin-left: 27px;
+.cart_quantity_count {
     position: absolute;
-    font-size: 29px;
-
-}
+    top: 5px; /* Adjust this value to position it correctly vertically */
+    right: 5px; /* Adjust this value to position it correctly horizontally */
+    background-color: red; /* Badge background color */
+    color: white; /* Text color */
+    border-radius: 50%; /* Make it round */
+    padding: 4px 8px; /* Adjust padding for size */
+    font-size: 14px; /* Adjust font size */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 .plantname_heading{
    display: flex;
    align-items: center;
